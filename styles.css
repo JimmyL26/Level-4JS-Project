@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: rgb(52, 173, 221);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+}
+
+.element {
+    display: inline-block;
+    width: 500px;
+    padding-top: 20px;
+}
+
+#list {
+    border: solid black 2px;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
