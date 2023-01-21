@@ -6,9 +6,13 @@ function initialize() {
 
 function getInfo() {
     item = (document.getElementById("item")).value;
-    list.push(item);
-    console.log(list);
-    display();
+    if (!list.includes(item)) {
+        list.push(item);
+        display();
+    }
+    else {
+        confirm("The item is already in the list!");
+    }
 }
 
 function getRemoveIndex() {
